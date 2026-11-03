@@ -7,7 +7,7 @@
       "Portfolio professionnel dédié à la présentation de mes compétences et réalisations en développement web et géospatial.",
     "longDescription":
       "Ce portfolio est une plateforme web moderne conçue pour présenter mon parcours professionnel, mes compétences techniques et mes différents projets. Il met en valeur mes réalisations dans le développement web et le domaine géospatial à travers une interface intuitive, responsive et soignée.",
-    "image": "/images/projets/portfolio.jpg",
+    "image": "/images/projets/portfolio.png",
     "technologies": ["Next.js", "React", "JavaScript", "CSS Modules"],
     "github": "",
     "demo": "",
@@ -24,7 +24,7 @@
       "Application web pour le suivi des travaux, la gestion des ressources et l'organisation des activités de chantier.",
     "longDescription":
       "Cette application de gestion de chantier a été développée pour faciliter le suivi et la coordination des activités sur les chantiers. Elle permet de gérer les tâches, les ressources et les différentes opérations grâce à une interface interactive. L'objectif est d'améliorer l'organisation, le suivi de l'avancement des travaux et la gestion des informations liées aux projets de construction.",
-    "image": "/images/projets/gestion-chantier.jpg",
+    "image": "/images/projets/gestion-chantier.png",
     "technologies": ["PHP", "FilamentPHP", "MySQL", "JavaScript", "CSS"],
     "github": "",
     "demo": "",
@@ -41,7 +41,7 @@
       "Plateforme de publication et de partage d'articles sur le développement web et les technologies numériques.",
     "longDescription":
       "Ce blog technique est une plateforme dédiée à la rédaction et à la publication d'articles portant sur le développement web, les nouvelles technologies et les outils numériques. Il permet de partager des connaissances, des tutoriels et des expériences techniques à travers une interface optimisée pour la lecture, le référencement naturel et l'accessibilité.",
-    "image": "/images/projets/blog-technique.jpg",
+    "image": "/images/projets/blog-technique.png",
     "technologies": ["Next.js", "Markdown", "SEO"],
     "github": "",
     "demo": "",
@@ -70,7 +70,7 @@
     "Exploitation des données GeoJSON.",
     "Gestion des données spatiales."
   ],
-  "image": "/images/projets/sig-agricole.jpg",
+  "image": "/images/projets/sig-agricole.png",
   "tags": [
     "React",
     "Leaflet",
@@ -109,7 +109,7 @@
       "Collecte, traitement et exploitation de données topographiques pour la production de données cartographiques précises.",
     "longDescription":
       "Ce projet concerne les opérations de levés topographiques et le traitement des données collectées sur le terrain. Il comprend l'utilisation d'équipements GNSS RTK, le géoréférencement des mesures, le traitement des données spatiales et la production de documents cartographiques. Ces travaux contribuent à la réalisation d'études topographiques et à la préparation de projets d'aménagement.",
-    "image": "/images/projets/topographie.jpg",
+    "image": "/images/projets/topographie.png",
     "technologies": ["Hi-Target", "GNSS RTK", "QGIS", "Cartographie"],
     "github": "",
     "demo": "",
