@@ -20,7 +20,7 @@ export default function Footer() {
             <a href="mailto:ndjorejjacques@gmail.com">
               ndjorejjacques@gmail.com
             </a>
-            <a href="tel:+22507777777">+225 07 777 777</a>
+            <a href="tel:+2250748501602">+225 07 48 50 16 02</a>
           </div>
 
           <div className={styles.social}>
@@ -33,7 +33,7 @@ export default function Footer() {
               LinkedIn ↗
             </a>
             <a
-              href="https://github.com/jean-jacques-ndjore"
+              href="https://github.com/mercury-pixel"
               target="_blank"
               rel="noopener noreferrer"
             >
