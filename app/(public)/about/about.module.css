@@ -1,0 +1,303 @@
+.about {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+/* HERO */
+.hero {
+  padding: 90px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #0b1220, #172b50);
+  color: white;
+}
+
+.eyebrow,
+.sectionLabel {
+  color: #0284c7;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.hero .eyebrow {
+  color: #7dd3fc;
+}
+
+.hero h1 {
+  font-size: clamp(38px, 6vw, 58px);
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+.hero h1 span,
+.presentationText h2 span,
+.visionContent h2 span {
+  color: #38bdf8;
+}
+
+.hero p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #cbd5e1;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* PRESENTATION */
+.presentation {
+  padding: 90px 0;
+}
+
+.presentationGrid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  align-items: center;
+  gap: 65px;
+}
+
+.profileVisual {
+  padding: 25px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #e0f2fe, #eef2ff);
+}
+
+.profileCard {
+  min-height: 350px;
+  padding: 35px 20px;
+  background: linear-gradient(145deg, #0b1220, #172b50);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.profileIcon {
+  width: 105px;
+  height: 105px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2563eb, #38bdf8);
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.profileCard h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.profileCard p {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.profileLine {
+  width: 50px;
+  height: 3px;
+  background: #38bdf8;
+  margin: 22px 0;
+}
+
+.profileLabel {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #7dd3fc;
+}
+
+.presentationText h2 {
+  font-size: clamp(27px, 4vw, 37px);
+  line-height: 1.3;
+  margin: 17px 0 22px;
+}
+
+.presentationText p {
+  color: #64748b;
+  line-height: 1.9;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.discoverButton,
+.visionButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 14px 22px;
+  border-radius: 9px;
+  background: #364ab0;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.discoverButton:hover,
+.visionButton:hover {
+  background: #2563eb;
+  transform: translateY(-3px);
+}
+
+/* EXPERTISE */
+.expertise {
+  padding: 85px 0;
+  background: #f8fafc;
+}
+
+.sectionHeader {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 50px;
+}
+
+.sectionHeader h2 {
+  font-size: clamp(28px, 4vw, 38px);
+  margin: 15px 0;
+}
+
+.sectionHeader p {
+  color: #64748b;
+  line-height: 1.8;
+}
+
+.expertiseGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+}
+
+.expertiseCard {
+  background: white;
+  padding: 30px;
+  border: 1px solid #e2e8f0;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.expertiseCard:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+}
+
+.expertiseIcon {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  background: #eff6ff;
+  border-radius: 12px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.expertiseCard h3 {
+  font-size: 19px;
+  margin-bottom: 12px;
+}
+
+.expertiseCard p {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tools span {
+  background: #eff6ff;
+  color: #364ab0;
+  padding: 7px 11px;
+  border-radius: 30px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* VISION */
+.vision {
+  padding: 85px 20px;
+  background: linear-gradient(135deg, #0b1220, #172b50);
+}
+
+.visionContent {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.visionContent h2 {
+  color: white;
+  font-size: clamp(28px, 5vw, 42px);
+  line-height: 1.3;
+  margin: 20px 0;
+}
+
+.visionContent p {
+  color: #94a3b8;
+  line-height: 1.9;
+  font-size: 15px;
+}
+
+.visionButton {
+  background: #2563eb;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .presentationGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .profileVisual {
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .expertiseGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 65px 15px;
+  }
+
+  .presentation,
+  .expertise,
+  .vision {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 17px;
+  }
+
+  .expertiseCard {
+    padding: 23px;
+  }
+
+  .profileCard {
+    min-height: 300px;
+  }
+}

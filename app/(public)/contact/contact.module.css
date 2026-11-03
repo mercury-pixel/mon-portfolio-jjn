@@ -1,0 +1,313 @@
+.contact {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+/* HERO */
+.hero {
+  padding: 85px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #0b1220, #172b50);
+  color: white;
+}
+
+.eyebrow,
+.sectionLabel {
+  color: #0284c7;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.hero .eyebrow {
+  color: #7dd3fc;
+}
+
+.hero h1 {
+  font-size: clamp(35px, 6vw, 55px);
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+.hero h1 span {
+  color: #38bdf8;
+}
+
+.hero p {
+  max-width: 680px;
+  margin: 0 auto;
+  color: #cbd5e1;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* CONTACT SECTION */
+.contactSection {
+  padding: 85px 0;
+  background: #f8fafc;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+/* INFORMATIONS */
+.contactInfo {
+  padding-top: 15px;
+}
+
+.contactInfo h2 {
+  font-size: clamp(28px, 4vw, 36px);
+  line-height: 1.3;
+  margin: 20px 0;
+}
+
+.contactInfo h2 span {
+  color: #2563eb;
+}
+
+.infoDescription {
+  color: #64748b;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 35px;
+}
+
+.infoItems {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.infoItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.infoIcon {
+  width: 45px;
+  height: 45px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+
+  border-radius: 12px;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 20px;
+}
+
+.infoItem h3 {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.infoItem p,
+.infoItem a {
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.7;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.infoItem a:hover {
+  color: #2563eb;
+}
+
+/* RÉSEAUX SOCIAUX */
+.socialSection {
+  margin-top: 40px;
+  padding-top: 25px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.socialSection h3 {
+  font-size: 14px;
+  margin-bottom: 17px;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.socialLinks a {
+  padding: 10px 17px;
+  border: 1px solid #dbeafe;
+  border-radius: 8px;
+
+  color: #364ab0;
+  background: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+
+  transition: 0.3s ease;
+}
+
+.socialLinks a:hover {
+  color: white;
+  background: #364ab0;
+  border-color: #364ab0;
+  transform: translateY(-3px);
+}
+
+/* FORMULAIRE */
+.formCard {
+  padding: 35px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.05);
+}
+
+.formHeader h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.formHeader p {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.formGroup label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #334155;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  width: 100%;
+  padding: 14px 15px;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 9px;
+
+  background: #f8fafc;
+  color: #0f172a;
+
+  font-family: inherit;
+  font-size: 14px;
+
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup select:focus,
+.formGroup textarea:focus {
+  border-color: #2563eb;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+  color: #94a3b8;
+}
+
+.formGroup textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.submitButton {
+  width: 100%;
+  min-height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  border: none;
+  border-radius: 9px;
+
+  background: linear-gradient(135deg, #364ab0, #2563eb);
+  color: white;
+
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.submitButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
+}
+
+.submitButton span {
+  font-size: 18px;
+}
+
+.formNote {
+  color: #94a3b8;
+  font-size: 11px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 850px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .contactInfo {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 65px 15px;
+  }
+
+  .contactSection {
+    padding: 55px 0;
+  }
+
+  .container {
+    padding: 0 17px;
+  }
+
+  .formCard {
+    padding: 23px 18px;
+  }
+
+  .formHeader h2 {
+    font-size: 21px;
+  }
+}

@@ -1,0 +1,157 @@
+.formations {
+  padding: 90px 20px;
+  background: #f8fafc;
+  min-height: 80vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* En-tête */
+.header {
+  max-width: 700px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.subtitle {
+  display: inline-block;
+  color: #0284c7;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.header h1 {
+  font-size: clamp(30px, 5vw, 42px);
+  color: #0f172a;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.header p {
+  color: #64748b;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Grille */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+}
+
+/* Cartes */
+.card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  min-height: 290px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+  border-color: #38bdf8;
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.08);
+}
+
+/* Partie supérieure */
+.cardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.category {
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 7px 13px;
+  border-radius: 30px;
+}
+
+.number {
+  color: #cbd5e1;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+/* Contenu */
+.cardContent {
+  flex: 1;
+}
+
+.cardContent h2 {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+
+.cardContent p {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* Pied de carte */
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f1f5f9;
+  padding-top: 18px;
+  margin-top: 25px;
+  color: #0284c7;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.arrow {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .arrow {
+  transform: translate(4px, -4px);
+}
+
+/* Responsive tablette */
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Responsive mobile */
+@media (max-width: 600px) {
+  .formations {
+    padding: 60px 16px;
+  }
+
+  .header {
+    margin-bottom: 35px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .card {
+    padding: 23px;
+    min-height: 260px;
+  }
+}

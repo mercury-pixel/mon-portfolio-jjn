@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "slug": "developpement-geospatial",
+    "title": "Développement Géospatial",
+    "category": "Formation",
+    "description":
+      "Formation spécialisée dans les systèmes d'information géographique, la cartographie numérique et l'analyse spatiale.",
+    "introduction":
+      "Cette formation m'a permis de développer des connaissances dans le domaine de l'information géographique, de comprendre les principes de la cartographie numérique et d'explorer les possibilités offertes par les technologies géospatiales.",
+    "objectives": [
+      "Comprendre les concepts fondamentaux des systèmes d'information géographique.",
+      "Maîtriser les principes de la cartographie numérique.",
+      "Explorer les méthodes d'analyse et de traitement des données spatiales.",
+      "Découvrir les applications du développement géospatial."
+    ],
+    "skills": [
+      "Cartographie numérique",
+      "Analyse spatiale",
+      "Données géographiques",
+      "Systèmes d'information géographique"
+    ],
+    "tools": ["QGIS", "ArcGIS", "PostGIS", "SQL"],
+    "details": [
+      "Introduction aux systèmes d'information géographique.",
+      "Collecte et traitement des données géographiques.",
+      "Création et personnalisation de cartes thématiques.",
+      "Analyse spatiale et exploitation des données géographiques."
+    ],
+    "contribution":
+      "Cette formation renforce mon profil dans le domaine du numérique et de la géomatique, en associant l'analyse des données à leur représentation géographique."
+  },
+  {
+    "id": 2,
+    "slug": "developpement-web",
+    "title": "Développement Web",
+    "category": "Compétences",
+    "description":
+      "Apprentissage des technologies modernes de développement web, notamment React, Next.js, HTML et CSS.",
+    "introduction":
+      "Cette formation m'a permis d'acquérir des bases solides en développement web et de découvrir les technologies utilisées pour concevoir des interfaces modernes, interactives et responsives.",
+    "objectives": [
+      "Comprendre les fondamentaux du développement web.",
+      "Créer des interfaces avec HTML et CSS.",
+      "Développer des composants interactifs avec React.",
+      "Concevoir des applications web avec Next.js."
+    ],
+    "skills": [
+      "Intégration web",
+      "Développement frontend",
+      "Responsive Design",
+      "Développement de composants"
+    ],
+    "tools": ["HTML", "CSS", "JavaScript", "React", "Next.js"],
+    "details": [
+      "Structure des pages web avec HTML.",
+      "Mise en forme et responsive design avec CSS.",
+      "Programmation interactive avec JavaScript.",
+      "Développement d'interfaces avec React.",
+      "Découverte de Next.js et de son architecture."
+    ],
+    "contribution":
+      "Cette formation me permet de concevoir des interfaces web modernes et de participer au développement de solutions numériques adaptées aux besoins des utilisateurs."
+  },
+  {
+    "id": 3,
+    "slug": "systemes-information-geographique",
+    "title": "Systèmes d'information géographique",
+    "category": "Spécialisation",
+    "description":
+      "Maîtrise des outils SIG, du traitement des données géographiques et de la création de cartes thématiques.",
+    "introduction":
+      "Cette spécialisation porte sur l'exploitation des données géographiques et l'utilisation des outils SIG pour organiser, analyser et visualiser des informations spatiales.",
+    "objectives": [
+      "Comprendre l'architecture et le fonctionnement des SIG.",
+      "Manipuler des données spatiales.",
+      "Réaliser des analyses géographiques.",
+      "Produire des cartes thématiques pertinentes."
+    ],
+    "skills": [
+      "Gestion des données spatiales",
+      "Analyse géographique",
+      "Géoréférencement",
+      "Visualisation cartographique"
+    ],
+    "tools": ["QGIS", "ArcGIS", "PostGIS", "GPS"],
+    "details": [
+      "Fondamentaux des systèmes d'information géographique.",
+      "Gestion des données vectorielles et raster.",
+      "Géoréférencement et systèmes de coordonnées.",
+      "Analyses spatiales et traitements géographiques.",
+      "Conception et mise en page cartographique."
+    ],
+    "contribution":
+      "Cette spécialisation développe ma capacité à exploiter les données géographiques et à produire des informations utiles à la compréhension des phénomènes spatiaux."
+  }
+]

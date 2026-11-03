@@ -1,150 +1,371 @@
-.page {
-  --background: #fafafa;
-  --foreground: #fff;
+/* PAGE PRINCIPALE */
+.home {
+  width: 100%;
+  overflow: hidden;
+}
 
-  --text-primary: #000;
-  --text-secondary: #666;
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
-
+/* HERO SECTION */
+.hero {
+  position: relative;
+  min-height: calc(100vh - 75px);
   display: flex;
-  flex: 1;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-geist-sans);
-  background-color: var(--background);
+  padding: 85px 25px 55px;
+
+  background: linear-gradient(
+    135deg,
+    #0b1220 0%,
+    #111d35 55%,
+    #172b50 100%
+  );
+
+  color: #ffffff;
+  overflow: hidden;
 }
 
-.main {
-  display: flex;
-  flex: 1;
+/* Effet lumineux en arrière-plan */
+.backgroundGlow {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  top: -180px;
+  right: -150px;
+
+  background: radial-gradient(
+    circle,
+    rgba(56, 189, 248, 0.16),
+    transparent 70%
+  );
+
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
   width: 100%;
-  max-width: 800px;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  background-color: var(--foreground);
-  padding: 120px 60px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
+/* INTRODUCTION */
 .intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  gap: 24px;
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.intro h1 {
-  max-width: 320px;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: -2.4px;
-  text-wrap: balance;
-  color: var(--text-primary);
+/* Etiquette */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 9px 17px;
+  margin-bottom: 30px;
+
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  border-radius: 50px;
+
+  background: rgba(56, 189, 248, 0.08);
+  color: #7dd3fc;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
 }
 
-.intro p {
-  max-width: 440px;
-  font-size: 18px;
-  line-height: 32px;
-  text-wrap: balance;
-  color: var(--text-secondary);
+.statusDot {
+  width: 8px;
+  height: 8px;
+  background: #38bdf8;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #38bdf8;
 }
 
-.intro a {
+/* TITRE */
+.heroTitle {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -2px;
+
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  display: block;
+  margin-top: 10px;
+
+  background: linear-gradient(
+    90deg,
+    #38bdf8,
+    #818cf8
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* SOUS-TITRE */
+.heroSubtitle {
+  font-size: clamp(1.15rem, 3vw, 1.65rem);
   font-weight: 500;
-  color: var(--text-primary);
+  color: #cbd5e1;
+  margin-bottom: 25px;
 }
 
-.ctas {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 440px;
-  gap: 16px;
-  font-size: 14px;
+.separator {
+  color: #38bdf8;
 }
 
-.ctas a {
+/* DESCRIPTION */
+.heroDescription {
+  max-width: 720px;
+  margin: 0 auto 35px;
+
+  color: #94a3b8;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* BOUTONS */
+.heroButtons {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
-  padding: 0 16px;
-  border-radius: 128px;
-  border: 1px solid transparent;
-  transition: 0.2s;
+  gap: 18px;
+  margin: 35px 0 60px;
+}
+
+.btnPrimary,
+.btnSecondary {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  min-width: 190px;
+  min-height: 52px;
+  padding: 14px 24px;
+
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none !important;
+
   cursor: pointer;
-  width: fit-content;
-  font-weight: 500;
+  transition: all 0.3s ease;
 }
 
-a.primary {
-  background: var(--text-primary);
-  color: var(--background);
+.btnPrimary {
+  background: linear-gradient(135deg, #2563eb, #38bdf8);
+  color: #ffffff !important;
+  border: 1px solid transparent;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+}
+
+.btnPrimary:hover {
+  background: #2563eb;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(37, 99, 235, 0.35);
+}
+
+.btnSecondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.btnSecondary:hover {
+  background: #ffffff;
+  color: #0f172a !important;
+  border-color: #ffffff;
+  transform: translateY(-3px);
+}
+
+/* TECHNOLOGIES */
+.techSection {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.techHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  margin-bottom: 30px;
+}
+
+.techHeading p {
+  color: #7dd3fc;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.techLine {
+  width: 30px;
+  height: 1px;
+  background: #38bdf8;
+}
+
+.techGroups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+}
+
+.techGroup {
+  padding: 22px;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.035);
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.techGroup:hover {
+  border-color: rgba(56, 189, 248, 0.4);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.techGroup h3 {
+  color: #e2e8f0;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.tagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* INDICATEUR DE DÉFILEMENT */
+.scrollIndicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 8px;
+
+  width: fit-content;
+  margin: 55px auto 0;
+
+  color: #64748b;
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-a.secondary {
-  border-color: var(--button-secondary-border);
+.scrollIndicator:hover {
+  color: #38bdf8;
 }
 
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  a.primary:hover {
-    background: var(--button-primary-hover);
-    border-color: transparent;
-  }
-
-  a.secondary:hover {
-    background: var(--button-secondary-hover);
-    border-color: transparent;
-  }
+.scrollArrow {
+  font-size: 22px;
+  animation: bounce 1.8s infinite;
 }
 
-@media (max-width: 600px) {
-  .main {
-    padding: 48px 24px;
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
   }
 
-  .intro {
-    gap: 16px;
-  }
-
-  .intro h1 {
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -1.92px;
+  50% {
+    transform: translateY(6px);
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
+/* TABLETTES */
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding: 75px 20px 45px;
   }
 
-  .page {
-    --background: #000;
-    --foreground: #000;
+  .heroTitle {
+    letter-spacing: -1px;
+  }
 
-    --text-primary: #ededed;
-    --text-secondary: #999;
+  .heroDescription {
+    font-size: 15px;
+  }
 
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
-    --button-secondary-border: #1a1a1a;
+  .techGroups {
+    grid-template-columns: 1fr;
+  }
+
+  .heroButtons {
+    margin-bottom: 45px;
   }
 }
 
-.code {
-  font-family: var(--font-geist-mono);
-  font-size: 0.9em;
-  background: color-mix(in srgb, currentColor 8%, transparent);
-  padding: 0.1em 0.4em;
-  border-radius: 6px;
+/* MOBILES */
+@media (max-width: 480px) {
+  .hero {
+    padding: 60px 16px 35px;
+  }
+
+  .eyebrow {
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+  }
+
+  .heroTitle {
+    font-size: 2.35rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .heroDescription {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .heroButtons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btnPrimary,
+  .btnSecondary {
+    width: 100%;
+  }
+
+  .techGroup {
+    padding: 17px;
+  }
+
+  .techHeading p {
+    font-size: 10px;
+    letter-spacing: 1.3px;
+  }
+
+  .scrollIndicator {
+    margin-top: 40px;
+  }
+}
+
+/* ACCESSIBILITÉ */
+@media (prefers-reduced-motion: reduce) {
+  .scrollArrow {
+    animation: none;
+  }
+
+  .btnPrimary,
+  .btnSecondary,
+  .techGroup,
+  .scrollIndicator {
+    transition: none;
+  }
 }

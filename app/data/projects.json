@@ -1,0 +1,121 @@
+ [
+  {
+    "id": 1,
+    "slug": "portfolio-personnel",
+    "title": "Portfolio Personnel",
+    "shortDescription":
+      "Portfolio professionnel dédié à la présentation de mes compétences et réalisations en développement web et géospatial.",
+    "longDescription":
+      "Ce portfolio est une plateforme web moderne conçue pour présenter mon parcours professionnel, mes compétences techniques et mes différents projets. Il met en valeur mes réalisations dans le développement web et le domaine géospatial à travers une interface intuitive, responsive et soignée.",
+    "image": "/images/projets/portfolio.jpg",
+    "technologies": ["Next.js", "React", "JavaScript", "CSS Modules"],
+    "github": "",
+    "demo": "",
+    "featured": true,
+    "href": "/projects/portfolio",
+    "category": "Développement Web",
+    "type": "web"
+  },
+  {
+    "id": 2,
+    "slug": "gestion-chantier",
+    "title": "Application de Gestion de Chantier",
+    "shortDescription":
+      "Application web pour le suivi des travaux, la gestion des ressources et l'organisation des activités de chantier.",
+    "longDescription":
+      "Cette application de gestion de chantier a été développée pour faciliter le suivi et la coordination des activités sur les chantiers. Elle permet de gérer les tâches, les ressources et les différentes opérations grâce à une interface interactive. L'objectif est d'améliorer l'organisation, le suivi de l'avancement des travaux et la gestion des informations liées aux projets de construction.",
+    "image": "/images/projets/gestion-chantier.jpg",
+    "technologies": ["PHP", "FilamentPHP", "MySQL", "JavaScript", "CSS"],
+    "github": "",
+    "demo": "",
+    "featured": true,
+    "href": "/projects/chantier",
+    "category": "Application Web",
+    "type": "web"
+  },
+  {
+    "id": 3,
+    "slug": "blog-technique",
+    "title": "Blog Technique",
+    "shortDescription":
+      "Plateforme de publication et de partage d'articles sur le développement web et les technologies numériques.",
+    "longDescription":
+      "Ce blog technique est une plateforme dédiée à la rédaction et à la publication d'articles portant sur le développement web, les nouvelles technologies et les outils numériques. Il permet de partager des connaissances, des tutoriels et des expériences techniques à travers une interface optimisée pour la lecture, le référencement naturel et l'accessibilité.",
+    "image": "/images/projets/blog-technique.jpg",
+    "technologies": ["Next.js", "Markdown", "SEO"],
+    "github": "",
+    "demo": "",
+    "featured": false,
+    "href": "/projects/blog",
+    "category": "Développement Web",
+    "type": "web"
+  },
+ {
+  "id": 4,
+  "slug": "web-sig-agricole",
+  "title": "Application Web SIG Agricole",
+  "shortDescription": "Plateforme cartographique interactive pour la gestion des parcelles agricoles.",
+  "longDescription": "Cette application Web SIG agricole permet de visualiser, gérer et exploiter des données géographiques liées aux activités agricoles.",
+  "context": "Le projet répond au besoin de centraliser les informations géographiques des exploitations agricoles et de faciliter leur consultation.",
+  "objectives": [
+    "Visualiser les parcelles agricoles sur une carte interactive.",
+    "Faciliter la gestion des données géographiques.",
+    "Suivre les infrastructures agricoles.",
+    "Améliorer l'exploitation des informations spatiales."
+  ],
+  "solution": "Développement d'une plateforme cartographique combinant une interface React, un serveur GeoDjango et une base de données spatiale PostGIS.",
+  "features": [
+    "Visualisation cartographique interactive.",
+    "Affichage des parcelles agricoles.",
+    "Exploitation des données GeoJSON.",
+    "Gestion des données spatiales."
+  ],
+  "image": "/images/projets/sig-agricole.jpg",
+  "tags": [
+    "React",
+    "Leaflet",
+    "GeoDjango",
+    "PostGIS",
+    "GeoJSON"
+  ],
+  "category": "Web SIG & Géomatique",
+  "type": "web-sig",
+  "featured": true,
+  "github": "",
+  "demo": ""
+},
+  {
+    "id": 5,
+    "slug": "reseau-irrigation",
+    "title": "Conception d'un Réseau d'Irrigation",
+    "shortDescription":
+      "Étude et conception technique de réseaux d'irrigation avec réalisation de plans et implantation des conduites.",
+    "longDescription":
+      "Ce projet porte sur l'étude et la conception technique de réseaux d'irrigation destinés à optimiser la distribution de l'eau dans les espaces agricoles. Il comprend l'analyse des besoins, la préparation des plans techniques, l'implantation des conduites et la production des documents nécessaires à la réalisation des infrastructures hydrauliques.",
+    "image": "/images/projets/reseau-irrigation.jpg",
+    "technologies": ["Irricad Pro", "AutoCAD", "Topographie"],
+    "github": "",
+    "demo": "",
+    "featured": true,
+    "href": "/projects/reseau-irrigation",
+    "category": "Irrigation & Ingénierie",
+    "type": "engineering"
+  },
+  {
+    "id": 6,
+    "slug": "topographie",
+    "title": "Levés et Traitement Topographique",
+    "shortDescription":
+      "Collecte, traitement et exploitation de données topographiques pour la production de données cartographiques précises.",
+    "longDescription":
+      "Ce projet concerne les opérations de levés topographiques et le traitement des données collectées sur le terrain. Il comprend l'utilisation d'équipements GNSS RTK, le géoréférencement des mesures, le traitement des données spatiales et la production de documents cartographiques. Ces travaux contribuent à la réalisation d'études topographiques et à la préparation de projets d'aménagement.",
+    "image": "/images/projets/topographie.jpg",
+    "technologies": ["Hi-Target", "GNSS RTK", "QGIS", "Cartographie"],
+    "github": "",
+    "demo": "",
+    "featured": false,
+    "href": "/projects/topographie",
+    "category": "Topographie & Géomatique",
+    "type": "geomatics"
+  }
+]
