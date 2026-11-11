@@ -1,4 +1,8 @@
-/* Barre de navigation */
+
+/* =========================================
+   BARRE DE NAVIGATION
+========================================= */
+
 .nav {
   position: sticky;
   top: 0;
@@ -10,7 +14,10 @@
   box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
 }
 
-/* Conteneur */
+/* =========================================
+   CONTENEUR
+========================================= */
+
 .container {
   max-width: 1200px;
   min-height: 75px;
@@ -23,7 +30,10 @@
   gap: 30px;
 }
 
-/* Logo */
+/* =========================================
+   LOGO
+========================================= */
+
 .logo {
   display: flex;
   align-items: center;
@@ -54,7 +64,10 @@
   color: #2563eb;
 }
 
-/* Menu */
+/* =========================================
+   MENU DESKTOP
+========================================= */
+
 .menu {
   display: flex;
   align-items: center;
@@ -89,6 +102,7 @@
 }
 
 /* Lien actif */
+
 .active {
   color: #364ab0;
   background: #eff6ff;
@@ -105,7 +119,10 @@
   border-radius: 5px;
 }
 
-/* Bouton contact */
+/* =========================================
+   BOUTON CONTACT
+========================================= */
+
 .contactButton {
   display: flex;
   align-items: center;
@@ -130,77 +147,70 @@
   box-shadow: 0 6px 15px rgba(54, 74, 176, 0.2);
 }
 
-/* Bouton hamburger */
-.menuButton {
+/* =========================================
+   BOUTON HAMBURGER
+========================================= */
+
+.menuToggle {
   display: none;
-  background: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  width: 42px;
+  height: 42px;
+  padding: 8px;
+
+  background: transparent;
   border: none;
   cursor: pointer;
-  padding: 8px;
+  z-index: 1100;
 }
 
-.menuButton span {
+.menuToggle span {
   display: block;
   width: 25px;
-  height: 2px;
-  margin: 5px 0;
+  height: 3px;
+
   background: #0f172a;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
 
-.barOpen1 {
-  transform: translateY(7px) rotate(45deg);
+/* Animation du hamburger en croix */
+
+.menuToggle .burgerOpen:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
 }
 
-.barOpen2 {
+.menuToggle .burgerOpen:nth-child(2) {
   opacity: 0;
 }
 
-.barOpen3 {
-  transform: translateY(-7px) rotate(-45deg);
+.menuToggle .burgerOpen:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
 }
 
-.burger span {
-  width: 25px;
-  height: 3px;
-  background: #333;
-  transition: all 0.3s ease;
-  border-radius: 2px;
-}
+/* =========================================
+   TABLETTE ET MOBILE
+========================================= */
 
-/* Animation du burger en croix */
-.burger span.burgerOpen:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-.burger span.burgerOpen:nth-child(2) {
-  opacity: 0;
-}
-
-.burger span.burgerOpen:nth-child(3) {
-  transform: rotate(-45deg) translate(7px, -6px);
-}
-
-/* Tablette et mobile */
 @media (max-width: 900px) {
-   .burger {
-    display: flex;
-  }
+
   .container {
     min-height: 70px;
     padding: 0 20px;
   }
 
-  .menuButton {
-    display: block;
+  /* Affichage du bouton hamburger */
+
+  .menuToggle {
+    display: flex;
     order: 3;
   }
 
-  .contactButton {
-    margin-left: auto;
-    padding: 10px 14px;
-  }
+  /* Menu mobile */
 
   .menu {
     position: absolute;
@@ -214,6 +224,7 @@
     gap: 5px;
 
     padding: 15px 20px 20px;
+
     background: white;
     border-bottom: 1px solid #e5eaf2;
     box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
@@ -221,8 +232,11 @@
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
+
     transition: all 0.3s ease;
   }
+
+  /* Ouverture du menu */
 
   .menuOpen {
     opacity: 1;
@@ -239,8 +253,12 @@
   }
 }
 
-/* Petits écrans */
+/* =========================================
+   PETITS ÉCRANS
+========================================= */
+
 @media (max-width: 480px) {
+
   .container {
     padding: 0 14px;
     gap: 10px;
@@ -261,12 +279,16 @@
   }
 }
 
-/* Accessibilité */
+/* =========================================
+   ACCESSIBILITÉ
+========================================= */
+
 @media (prefers-reduced-motion: reduce) {
+
   .link,
   .contactButton,
   .menu,
-  .menuButton span {
+  .menuToggle span {
     transition: none;
   }
 }
