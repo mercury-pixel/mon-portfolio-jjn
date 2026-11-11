@@ -1,35 +1,52 @@
 [
-  {
-    "id": 1,
-    "slug": "developpement-geospatial",
-    "title": "Développement Géospatial",
-    "category": "Formation",
-    "description":
-      "Formation spécialisée dans les systèmes d'information géographique, la cartographie numérique et l'analyse spatiale.",
-    "introduction":
-      "Cette formation m'a permis de développer des connaissances dans le domaine de l'information géographique, de comprendre les principes de la cartographie numérique et d'explorer les possibilités offertes par les technologies géospatiales.",
-    "objectives": [
-      "Comprendre les concepts fondamentaux des systèmes d'information géographique.",
-      "Maîtriser les principes de la cartographie numérique.",
-      "Explorer les méthodes d'analyse et de traitement des données spatiales.",
-      "Découvrir les applications du développement géospatial."
-    ],
-    "skills": [
-      "Cartographie numérique",
-      "Analyse spatiale",
-      "Données géographiques",
-      "Systèmes d'information géographique"
-    ],
-    "tools": ["QGIS", "ArcGIS", "PostGIS", "SQL"],
-    "details": [
-      "Introduction aux systèmes d'information géographique.",
-      "Collecte et traitement des données géographiques.",
-      "Création et personnalisation de cartes thématiques.",
-      "Analyse spatiale et exploitation des données géographiques."
-    ],
-    "contribution":
-      "Cette formation renforce mon profil dans le domaine du numérique et de la géomatique, en associant l'analyse des données à leur représentation géographique."
-  },
+ 
+{
+  "id": 1,
+  "slug": "developpement-geospatial",
+  "title": "Développement Géospatial",
+  "category": "Formation",
+  "description": "Formation spécialisée dans les systèmes d'information géographique, la cartographie numérique, l'analyse spatiale et le développement d'applications géospatiales.",
+  "introduction": "Dans le cadre de mon parcours en Sciences et Technologies Géospatiales, j'ai développé des connaissances dans le domaine de la géomatique, notamment en systèmes d'information géographique, cartographie numérique, gestion des données spatiales et conception de solutions géospatiales.",
+  "objectives": [
+    "Comprendre les concepts fondamentaux des systèmes d'information géographique.",
+    "Maîtriser les principes de la cartographie numérique.",
+    "Collecter, structurer et traiter les données géographiques.",
+    "Explorer les méthodes d'analyse spatiale et de géotraitement.",
+    "Découvrir les principes du développement d'applications géospatiales.",
+    "Comprendre l'utilisation des bases de données spatiales et des services cartographiques web."
+  ],
+  "skills": [
+    "Cartographie numérique",
+    "Analyse spatiale",
+    "Gestion des données géographiques",
+    "Systèmes d'information géographique",
+    "Géoréférencement",
+    "Bases de données spatiales",
+    "Développement cartographique web",
+    "Traitement des données géospatiales"
+  ],
+  "tools": [
+    "QGIS",
+    "ArcGIS",
+    "PostGIS",
+    "SQL",
+    "Python",
+    "Leaflet",
+    "GeoServer",
+    "Google Earth Engine"
+  ],
+  "details": [
+    "Introduction aux systèmes d'information géographique.",
+    "Collecte et traitement des données géographiques.",
+    "Gestion des données raster et vectorielles.",
+    "Création et personnalisation de cartes thématiques.",
+    "Analyse spatiale et exploitation des données géographiques.",
+    "Gestion et interrogation des bases de données spatiales.",
+    "Introduction au développement d'applications cartographiques web.",
+    "Découverte des services web géographiques."
+  ],
+  "contribution": "Ce parcours renforce mon profil dans les domaines du numérique et de la géomatique. Il me permet d'associer le développement informatique, la gestion des données et leur représentation géographique afin de contribuer à la conception de solutions géospatiales."
+},
   {
     "id": 2,
     "slug": "developpement-web",
@@ -93,5 +110,160 @@
     ],
     "contribution":
       "Cette spécialisation développe ma capacité à exploiter les données géographiques et à produire des informations utiles à la compréhension des phénomènes spatiaux."
+  },
+   {
+    "id": 4,
+    "slug": "programmation-et-genie-logiciel",
+    "title": "Programmation et Génie Logiciel",
+    "category": "Formation",
+    "description": "Formation axée sur les principes de programmation, les méthodes de conception logicielle et le développement de solutions informatiques structurées.",
+    "introduction": "Cette formation m'a permis de développer une logique algorithmique, de comprendre les principes de conception des logiciels et d'explorer différentes approches de résolution des problèmes informatiques.",
+    "objectives": [
+      "Maîtriser les bases de la programmation informatique.",
+      "Développer une logique algorithmique.",
+      "Comprendre les principes de la programmation orientée objet.",
+      "Concevoir des applications structurées et maintenables.",
+      "Appliquer les bonnes pratiques du génie logiciel."
+    ],
+    "skills": [
+      "Algorithmique",
+      "Programmation orientée objet",
+      "Résolution de problèmes",
+      "Conception logicielle",
+      "Débogage et maintenance"
+    ],
+    "tools": ["Python", "Java", "JavaScript", "C", "Visual Studio Code"],
+    "details": [
+      "Algorithmique et structures de données.",
+      "Variables, conditions, boucles et fonctions.",
+      "Programmation orientée objet.",
+      "Organisation et structuration du code.",
+      "Tests et correction des erreurs."
+    ],
+    "contribution": "Cette formation consolide mes capacités d'analyse et de programmation, indispensables à la conception de logiciels et d'applications informatiques fiables."
+  },
+  {
+    "id": 5,
+    "slug": "bases-de-donnees-et-administration",
+    "title": "Bases de Données et Administration",
+    "category": "Formation",
+    "description": "Formation consacrée à la conception, à la gestion, à l'exploitation et à l'administration des bases de données relationnelles.",
+    "introduction": "Cette formation m'a permis de comprendre le fonctionnement des systèmes de gestion de bases de données, de structurer les informations et de manipuler les données à travers des requêtes SQL.",
+    "objectives": [
+      "Comprendre les concepts fondamentaux des bases de données.",
+      "Concevoir des modèles de données relationnels.",
+      "Maîtriser les opérations de manipulation des données.",
+      "Écrire des requêtes SQL.",
+      "Comprendre les principes de gestion et de sécurisation des données."
+    ],
+    "skills": [
+      "Modélisation des données",
+      "Conception de bases de données",
+      "Requêtes SQL",
+      "Gestion des données",
+      "Organisation des informations"
+    ],
+    "tools": ["MySQL", "PostgreSQL", "SQL", "PostGIS", "phpMyAdmin"],
+    "details": [
+      "Modélisation conceptuelle et relationnelle des données.",
+      "Création et gestion des tables.",
+      "Manipulation des données avec SQL.",
+      "Jointures et requêtes complexes.",
+      "Introduction à l'administration des bases de données."
+    ],
+    "contribution": "Cette formation me permet de mieux structurer, gérer et exploiter les données dans le cadre du développement d'applications et des systèmes d'information."
+  },
+  {
+    "id": 6,
+    "slug": "developpement-applications-mobiles",
+    "title": "Développement d'Applications Mobiles",
+    "category": "Formation",
+    "description": "Formation orientée vers la conception et le développement d'applications mobiles répondant aux besoins des utilisateurs.",
+    "introduction": "Cette formation m'a permis de découvrir les principes de conception des applications mobiles, les contraintes liées aux appareils mobiles et les technologies permettant de créer des expériences utilisateur adaptées.",
+    "objectives": [
+      "Comprendre les architectures des applications mobiles.",
+      "Concevoir des interfaces adaptées aux smartphones et tablettes.",
+      "Découvrir les technologies de développement mobile.",
+      "Comprendre les échanges entre applications mobiles et API.",
+      "Explorer les méthodes de test et de déploiement mobile."
+    ],
+    "skills": [
+      "Développement mobile",
+      "Conception d'interfaces mobiles",
+      "Responsive Design",
+      "Consommation d'API",
+      "Expérience utilisateur"
+    ],
+    "tools": ["JavaScript", "React Native", "Expo", "Android Studio", "REST API"],
+    "details": [
+      "Introduction au développement mobile.",
+      "Conception d'interfaces mobiles.",
+      "Navigation entre les écrans.",
+      "Communication avec des API.",
+      "Tests et préparation au déploiement."
+    ],
+    "contribution": "Cette formation élargit mes compétences en développement d'applications et me permet d'explorer la création de solutions numériques accessibles sur différents supports."
+  },
+  {
+    "id": 7,
+    "slug": "cartographie-et-teledetection",
+    "title": "Cartographie et Télédétection",
+    "category": "Formation",
+    "description": "Formation dédiée à la représentation cartographique, à l'exploitation des images satellitaires et à l'observation de la surface terrestre.",
+    "introduction": "Cette formation m'a permis de découvrir les techniques de représentation cartographique et les méthodes d'exploitation des images satellitaires pour observer, analyser et comprendre les phénomènes géographiques.",
+    "objectives": [
+      "Comprendre les principes de la cartographie.",
+      "Découvrir les techniques de télédétection.",
+      "Interpréter des images satellitaires.",
+      "Identifier les caractéristiques de l'occupation du sol.",
+      "Produire des représentations cartographiques adaptées."
+    ],
+    "skills": [
+      "Cartographie numérique",
+      "Interprétation d'images satellitaires",
+      "Analyse de l'occupation du sol",
+      "Visualisation géographique",
+      "Traitement d'images"
+    ],
+    "tools": ["QGIS", "ArcGIS", "Google Earth Engine", "Sentinel", "Landsat"],
+    "details": [
+      "Principes fondamentaux de la cartographie.",
+      "Introduction à la télédétection.",
+      "Acquisition et interprétation des images satellitaires.",
+      "Analyse de l'occupation et de l'utilisation du sol.",
+      "Réalisation de cartes thématiques."
+    ],
+    "contribution": "Cette formation complète mon parcours en géomatique en associant l'analyse des images satellitaires à la cartographie et à l'étude des phénomènes territoriaux."
+  },
+  {
+    "id": 8,
+    "slug": "analyse-et-visualisation-des-donnees",
+    "title": "Analyse et Visualisation des Données",
+    "category": "Formation",
+    "description": "Formation orientée vers la collecte, le traitement, l'analyse et la représentation visuelle des données pour faciliter leur compréhension et leur exploitation.",
+    "introduction": "Cette formation m'a permis de découvrir les méthodes d'analyse et de visualisation des données, ainsi que l'importance de transformer des informations brutes en résultats exploitables pour accompagner la prise de décision.",
+    "objectives": [
+      "Comprendre les fondamentaux de l'analyse de données.",
+      "Collecter et organiser des jeux de données.",
+      "Effectuer des traitements et analyses statistiques.",
+      "Créer des graphiques et tableaux de bord.",
+      "Interpréter et communiquer les résultats d'une analyse."
+    ],
+    "skills": [
+      "Analyse de données",
+      "Nettoyage des données",
+      "Visualisation de données",
+      "Statistiques descriptives",
+      "Interprétation des résultats"
+    ],
+    "tools": ["Python", "Excel", "Pandas", "Matplotlib"],
+    "details": [
+      "Collecte et organisation des données.",
+      "Nettoyage et préparation des données.",
+      "Introduction aux statistiques descriptives.",
+      "Création de graphiques et visualisations.",
+      "Interprétation et présentation des résultats."
+    ],
+    "contribution": "Cette formation renforce mon profil de développeur en me permettant d'associer les compétences informatiques à l'exploitation et à la valorisation des données, notamment géographiques."
   }
 ]
